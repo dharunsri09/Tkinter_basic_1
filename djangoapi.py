@@ -3,7 +3,7 @@ from datetime import datetime
 import tkinter.font as tkFont
 window=Tk()
 window.title("Django")
-window.geometry("600x300")
+window.geometry("600x350")
 
 def clock():
     time=datetime.now().strftime("%H:%M:%S")
