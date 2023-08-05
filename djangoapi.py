@@ -4,6 +4,6 @@ window.title("Django")
 window.geometry("450x300")
 
 window.configure(bg="steelblue")
-label=Label(window,text="Welcome!",font={"Arial black",70,"bold"})
+label=Label(window,text="Hello",font={"Arial black",70,"bold"})
 label.pack(pady=100)
 window.mainloop()
